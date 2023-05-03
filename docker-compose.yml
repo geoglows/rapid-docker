@@ -11,4 +11,4 @@ services:
       - PATH_TO_NAMELISTS:/mnt/namelists:ro
       - PATH_TO_INPUTS:/mnt/inputs:ro
       - PATH_TO_OUTPUTS:/mnt/outputs
-      - ./scripts:/mnt/scripts
+      - PATH_TO_SCRIPTS:/mnt/scripts
