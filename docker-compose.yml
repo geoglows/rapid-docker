@@ -12,3 +12,4 @@ services:
       - PATH_TO_INPUTS:/mnt/inputs:ro
       - PATH_TO_OUTPUTS:/mnt/outputs
       - PATH_TO_SCRIPTS:/mnt/scripts
+      - PATH_TO_LOGS:/mnt/logs

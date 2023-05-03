@@ -5,4 +5,5 @@ FROM chdavid/rapid:latest
 RUN mkdir -p /mnt/inputs && \
 	mkdir -p /mnt/outputs && \
     mkdir -p /mnt/namelists && \
-    mkdir -p /mnt/scripts
+    mkdir -p /mnt/scripts && \
+    mkdir -p /mnt/logs
