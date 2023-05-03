@@ -1,0 +1,14 @@
+# make a docker-compose.yml file to make a container using the Dockerfile as the base
+version: '3'
+services:
+  rapid:
+    stdin_open: true
+    tty: true
+    container_name: rapid
+    build:
+      context: ./
+    volumes:
+      - PATH_TO_NAMELISTS:/mnt/namelists:ro
+      - PATH_TO_INPUTS:/mnt/inputs:ro
+      - PATH_TO_OUTPUTS:/mnt/outputs
+      - ./scripts:/mnt/scripts
