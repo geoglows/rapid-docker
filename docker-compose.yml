@@ -10,6 +10,7 @@ services:
     volumes:
       - PATH_TO_NAMELISTS:/mnt/namelists:ro
       - PATH_TO_INPUTS:/mnt/inputs:ro
+      - PATH_TO_INFLOWS:/mnt/inflows:ro
       - PATH_TO_OUTPUTS:/mnt/outputs
       - PATH_TO_SCRIPTS:/mnt/scripts
       - PATH_TO_LOGS:/mnt/logs
