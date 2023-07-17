@@ -8,9 +8,9 @@ services:
     build:
       context: ./
     volumes:
-      - PATH_TO_NAMELISTS:/mnt/namelists:ro
-      - PATH_TO_INPUTS:/mnt/inputs:ro
-      - PATH_TO_INFLOWS:/mnt/inflows:ro
-      - PATH_TO_OUTPUTS:/mnt/outputs
-      - PATH_TO_SCRIPTS:/mnt/scripts
-      - PATH_TO_LOGS:/mnt/logs
+      - /mnt/namelists:/mnt/namelists:ro
+      - /mnt/inputs:/mnt/inputs:ro
+      - /mnt/inflows:/mnt/inflows:ro
+      - /mnt/outputs:/mnt/outputs
+      - /mnt/scripts:/mnt/scripts
+      - /mnt/logs:/mnt/logs
