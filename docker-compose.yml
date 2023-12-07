@@ -14,3 +14,4 @@ services:
       - /mnt/outputs:/mnt/outputs
       - /mnt/scripts:/mnt/scripts
       - /mnt/logs:/mnt/logs
+      - /mnt/initialization:/mnt/initialization
